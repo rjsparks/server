@@ -3,7 +3,7 @@ openapi: 3.0.1
 info:
   title: CodiMD
   description: CodiMD is an open source collaborative note editor. Several tasks of CodiMD can be automated through this API.
-  version: 1.6.0
+  version: 1.6.1
   contact:
     name: CodiMD on GitHub
     url: https://github.com/codimd/server
