@@ -147,7 +147,7 @@ app.use(session({
   rolling: true, // reset maxAge on every response
   cookie: {
     maxAge: config.sessionLife,
-    sameSite: 'lax',
+    sameSite: 'none',
     secure: config.useSSL || config.protocolUseSSL || false
   },
   store: sessionStore
